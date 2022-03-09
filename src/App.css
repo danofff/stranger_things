@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,700;0,800;1,200;1,300;1,400;1,700;1,800&family=Readex+Pro:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;500;600&family=Smooch&display=swap");
+
+@font-face {
+  font-family: "BenguiatBold";
+  src: local("BenguiatBold"),
+    url("./shared/Benguiat_Bold.ttf") format("truetype");
+  font-weight: normal;
+}
+
+html,
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Readex Pro", sans-serif;
+  color: #444;
+  background-color: #444;
+  margin-bottom: 2rem;
+}
+#root {
+  padding-top: 170px;
+  position: relative;
+}
+
+.active {
+  color: #ed1c24 !important;
+  border: 2px solid #ed1c24 !important;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto Slab", sans-serif;
+  color: #ed1c24;
+}
